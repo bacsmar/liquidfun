@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="box2d">
+  <Description/>
+  <VirtualDirectory Name="src">
+    <File Name="ReadMe.txt"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include"/>
+  <Dependencies/>
+  <Settings Type="Static Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="Visual C++ 9" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -Wall" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="..\..\"/>
+        <Preprocessor Value="WIN32"/>
+        <Preprocessor Value="_DEBUG"/>
+        <Preprocessor Value="_WINDOWS"/>
+      </Compiler>
+      <Linker Options="-O0" Required="yes">
+        <LibraryPath Value="."/>
+        <LibraryPath Value="Debug"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="" IntermediateDirectory="$(SolutionDir)\tmp\$(ProjectName)\$(ConfigurationName)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="./Debug" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Workspace Settings&gt;" DbgSetName="&lt;Use Global Settings&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Debug_Static" CompilerType="Visual C++ 9" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -Wall" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="..\..\"/>
+        <Preprocessor Value="WIN32"/>
+        <Preprocessor Value="_DEBUG"/>
+        <Preprocessor Value="_WINDOWS"/>
+      </Compiler>
+      <Linker Options="-O0" Required="yes">
+        <LibraryPath Value="."/>
+        <LibraryPath Value="Debug"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="" IntermediateDirectory="$(ConfigurationName)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="./Debug" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Workspace Settings&gt;" DbgSetName="&lt;Use Global Settings&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="Visual C++ 9" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -Wall" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="..\..\"/>
+        <Preprocessor Value="WIN32"/>
+        <Preprocessor Value="NDEBUG"/>
+        <Preprocessor Value="_WINDOWS"/>
+      </Compiler>
+      <Linker Options="-O0" Required="yes">
+        <LibraryPath Value="."/>
+        <LibraryPath Value="Debug"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="" IntermediateDirectory="$(SolutionDir)\tmp\$(ProjectName)\$(ConfigurationName)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="./Debug" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Workspace Settings&gt;" DbgSetName="&lt;Use Global Settings&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+  <VirtualDirectory Name="Source Files">
+    <File Name="../Box2D.h"/>
+    <VirtualDirectory Name="Collision">
+      <File Name="../Collision/b2BroadPhase.cpp"/>
+      <File Name="../Collision/b2BroadPhase.h"/>
+      <File Name="../Collision/b2CollideCircle.cpp"/>
+      <File Name="../Collision/b2CollideEdge.cpp"/>
+      <File Name="../Collision/b2CollidePolygon.cpp"/>
+      <File Name="../Collision/b2Collision.cpp"/>
+      <File Name="../Collision/b2Collision.h"/>
+      <File Name="../Collision/b2Distance.cpp"/>
+      <File Name="../Collision/b2Distance.h"/>
+      <File Name="../Collision/b2DynamicTree.cpp"/>
+      <File Name="../Collision/b2DynamicTree.h"/>
+      <File Name="../Collision/b2TimeOfImpact.cpp"/>
+      <File Name="../Collision/b2TimeOfImpact.h"/>
+      <VirtualDirectory Name="Shapes">
+        <File Name="../Collision/Shapes/b2ChainShape.cpp"/>
+        <File Name="../Collision/Shapes/b2ChainShape.h"/>
+        <File Name="../Collision/Shapes/b2CircleShape.cpp"/>
+        <File Name="../Collision/Shapes/b2CircleShape.h"/>
+        <File Name="../Collision/Shapes/b2EdgeShape.cpp"/>
+        <File Name="../Collision/Shapes/b2EdgeShape.h"/>
+        <File Name="../Collision/Shapes/b2PolygonShape.cpp"/>
+        <File Name="../Collision/Shapes/b2PolygonShape.h"/>
+        <File Name="../Collision/Shapes/b2Shape.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Common">
+      <File Name="../Common/b2BlockAllocator.cpp"/>
+      <File Name="../Common/b2BlockAllocator.h"/>
+      <File Name="../Common/b2Draw.cpp"/>
+      <File Name="../Common/b2Draw.h"/>
+      <File Name="../Common/b2GrowableStack.h"/>
+      <File Name="../Common/b2Math.cpp"/>
+      <File Name="../Common/b2Math.h"/>
+      <File Name="../Common/b2Settings.cpp"/>
+      <File Name="../Common/b2Settings.h"/>
+      <File Name="../Common/b2StackAllocator.cpp"/>
+      <File Name="../Common/b2StackAllocator.h"/>
+      <File Name="../Common/b2Timer.cpp"/>
+      <File Name="../Common/b2Timer.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Dynamics">
+      <File Name="../Dynamics/b2Body.cpp"/>
+      <File Name="../Dynamics/b2Body.h"/>
+      <File Name="../Dynamics/b2ContactManager.cpp"/>
+      <File Name="../Dynamics/b2ContactManager.h"/>
+      <File Name="../Dynamics/b2Fixture.cpp"/>
+      <File Name="../Dynamics/b2Fixture.h"/>
+      <File Name="../Dynamics/b2Island.cpp"/>
+      <File Name="../Dynamics/b2Island.h"/>
+      <File Name="../Dynamics/b2TimeStep.h"/>
+      <File Name="../Dynamics/b2World.cpp"/>
+      <File Name="../Dynamics/b2World.h"/>
+      <File Name="../Dynamics/b2WorldCallbacks.cpp"/>
+      <File Name="../Dynamics/b2WorldCallbacks.h"/>
+      <VirtualDirectory Name="Contacts">
+        <File Name="../Dynamics/Contacts/b2ChainAndCircleContact.cpp"/>
+        <File Name="../Dynamics/Contacts/b2ChainAndCircleContact.h"/>
+        <File Name="../Dynamics/Contacts/b2ChainAndPolygonContact.cpp"/>
+        <File Name="../Dynamics/Contacts/b2ChainAndPolygonContact.h"/>
+        <File Name="../Dynamics/Contacts/b2CircleContact.cpp"/>
+        <File Name="../Dynamics/Contacts/b2CircleContact.h"/>
+        <File Name="../Dynamics/Contacts/b2Contact.cpp"/>
+        <File Name="../Dynamics/Contacts/b2Contact.h"/>
+        <File Name="../Dynamics/Contacts/b2ContactSolver.cpp"/>
+        <File Name="../Dynamics/Contacts/b2ContactSolver.h"/>
+        <File Name="../Dynamics/Contacts/b2EdgeAndCircleContact.cpp"/>
+        <File Name="../Dynamics/Contacts/b2EdgeAndCircleContact.h"/>
+        <File Name="../Dynamics/Contacts/b2EdgeAndPolygonContact.cpp"/>
+        <File Name="../Dynamics/Contacts/b2EdgeAndPolygonContact.h"/>
+        <File Name="../Dynamics/Contacts/b2PolygonAndCircleContact.cpp"/>
+        <File Name="../Dynamics/Contacts/b2PolygonAndCircleContact.h"/>
+        <File Name="../Dynamics/Contacts/b2PolygonContact.cpp"/>
+        <File Name="../Dynamics/Contacts/b2PolygonContact.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Joints">
+        <File Name="../Dynamics/Joints/b2DistanceJoint.cpp"/>
+        <File Name="../Dynamics/Joints/b2DistanceJoint.h"/>
+        <File Name="../Dynamics/Joints/b2FrictionJoint.cpp"/>
+        <File Name="../Dynamics/Joints/b2FrictionJoint.h"/>
+        <File Name="../Dynamics/Joints/b2GearJoint.cpp"/>
+        <File Name="../Dynamics/Joints/b2GearJoint.h"/>
+        <File Name="../Dynamics/Joints/b2Joint.cpp"/>
+        <File Name="../Dynamics/Joints/b2Joint.h"/>
+        <File Name="../Dynamics/Joints/b2MotorJoint.cpp"/>
+        <File Name="../Dynamics/Joints/b2MouseJoint.cpp"/>
+        <File Name="../Dynamics/Joints/b2MouseJoint.h"/>
+        <File Name="../Dynamics/Joints/b2PrismaticJoint.cpp"/>
+        <File Name="../Dynamics/Joints/b2PrismaticJoint.h"/>
+        <File Name="../Dynamics/Joints/b2PulleyJoint.cpp"/>
+        <File Name="../Dynamics/Joints/b2PulleyJoint.h"/>
+        <File Name="../Dynamics/Joints/b2RevoluteJoint.cpp"/>
+        <File Name="../Dynamics/Joints/b2RevoluteJoint.h"/>
+        <File Name="../Dynamics/Joints/b2RopeJoint.cpp"/>
+        <File Name="../Dynamics/Joints/b2RopeJoint.h"/>
+        <File Name="../Dynamics/Joints/b2WeldJoint.cpp"/>
+        <File Name="../Dynamics/Joints/b2WeldJoint.h"/>
+        <File Name="../Dynamics/Joints/b2WheelJoint.cpp"/>
+        <File Name="../Dynamics/Joints/b2WheelJoint.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Rope">
+      <File Name="../Rope/b2Rope.cpp"/>
+      <File Name="../Rope/b2Rope.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Header Files"/>
+  <VirtualDirectory Name="Resource Files"/>
+</CodeLite_Project>
