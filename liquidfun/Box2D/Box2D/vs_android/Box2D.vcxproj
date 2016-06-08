@@ -89,7 +89,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <CLanguageStandard>Default</CLanguageStandard>
-      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
       <AdditionalIncludeDirectories>..\..\;%(AdditionalIncludeDirectories);$(VS_NdkRoot)\platforms\$(AndroidAPILevel)\arch-arm\usr\include</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
